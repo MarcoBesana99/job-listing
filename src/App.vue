@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header></Header>
-    <div class="px-28 py-14">
+    <div class="lg:px-28 lg:py-14 py-14 px-8">
       <JobCard v-for="job in jobs" :job="job" :key="job.id"></JobCard>
     </div>
   </div>
@@ -29,5 +29,10 @@ export default {
 <style>
 body {
   background-color: #F0FAFB;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>

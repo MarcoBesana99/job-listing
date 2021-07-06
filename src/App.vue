@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header></Header>
-    <JobCard v-for="job in jobs" :job="job" :key="job.id"></JobCard>
+    <div class="px-28 py-14">
+      <JobCard v-for="job in jobs" :job="job" :key="job.id"></JobCard>
+    </div>
   </div>
 </template>
 

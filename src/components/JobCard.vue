@@ -111,5 +111,11 @@ export default {
 .categories {
   background-color: #eef7f6;
   color: #5fa3a4;
+  cursor: pointer;
+}
+
+.categories:hover {
+  background-color: #5fa3a4;
+  color: white !important;
 }
 </style>
